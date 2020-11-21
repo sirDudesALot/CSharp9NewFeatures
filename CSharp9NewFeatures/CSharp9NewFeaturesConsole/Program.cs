@@ -14,5 +14,11 @@ Console.WriteLine(SomeMethod(2, 3));
 // Can now instantiate objects without having to decalre Class after new
 Person thisPerson = new() { Id = 1, FirstName = "Joe", LastName = "Bloggs" };
 
+// thisPerson.Id = 2;
+thisPerson.FirstName = "Joseph";
+thisPerson.LastName = "Bloggs";
+
+Person anotherPerson = new(2, "James", "Smith");
+//anotherPerson.Id = 3;
 
 
