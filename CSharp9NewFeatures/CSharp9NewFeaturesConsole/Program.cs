@@ -1,11 +1,14 @@
 ﻿using System;
 
-namespace CSharp9NewFeaturesConsole
+
+// This is top level code.  There is no need to decalre a main method anymore.
+static int SomeMethod(int x, int y)
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-        }
-    }
+    return x + y;
 }
+
+// This is the entry point for the application
+Console.WriteLine(SomeMethod(2, 3));
+
+
+
